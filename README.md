@@ -1,4 +1,8 @@
-# LOXJIE A30 Remote Control over Bluetooth
+# LOXJIE A30 Remote Control
+
+The LOXJIE A30 is a Qualcomm driven device so you an feed it with GAIA commands.
+
+Sadly you cannot store any equalizer curves in it.
 
 ```
 $ python3 loxctl.py 
@@ -41,6 +45,8 @@ options:
 
 ## Example
 
+## Info
+
 ```
 $ loxctl info
 found: E8:18:28:xx:xx:xx (LOXJIE BT5.0B)
@@ -58,3 +64,12 @@ LOXJIE A30
   Volume config: 00100004000affd8fff60000ffb000100004000affd8fff60000ffb00000000000000000000000000009350119030f18000935043513190600010009351f190907000009091cffff00093505 (76 B)
   Audio gain config: 0100000000020004000103010400020402040003050304000406040400050705040006080604000709070400080a080400090b0904000a0c0a04000b0d0b04000c0e0c04000d0f0d04000e0f0e00000f (80 B)
 ```
+
+## Increase Volume
+
+```
+$ python3 loxctl.py av volup
+found: E8:18:28:47:54:E7 (LOXJIE BT5.0B)
+```
+
+But it doesn't change the main volume knob that drives the amplifier.
