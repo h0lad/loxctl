@@ -70,6 +70,7 @@ LOXJIE A30
 ```
 $ python3 loxctl.py av volup
 found: E8:18:28:47:54:E7 (LOXJIE BT5.0B)
+OK
 ```
 
 But it doesn't change the main volume knob that drives the amplifier.
