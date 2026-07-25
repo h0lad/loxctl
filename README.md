@@ -1,6 +1,6 @@
 # LOXJIE A30 Remote Control
 
-The LOXJIE A30 is a Qualcomm driven device so you an feed it with GAIA commands.
+The LOXJIE A30 is a Qualcomm driven audio amplifier so you an feed it with GAIA commands.
 
 Sadly you cannot store any equalizer curves in it.
 
