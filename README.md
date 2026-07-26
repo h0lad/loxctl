@@ -1,6 +1,6 @@
 # LOXJIE A30 Remote Control
 
-The LOXJIE A30 is a Qualcomm driven audio amplifier so you an feed it with GAIA commands.
+The LOXJIE A30 is a Qualcomm driven audio amplifier so you control it with GAIA commands.
 
 Sadly you cannot store any equalizer curves in it.
 
@@ -73,4 +73,4 @@ found: E8:18:28:47:54:E7 (LOXJIE BT5.0B)
 OK
 ```
 
-But it doesn't change the main volume knob that drives the amplifier.
+It only changes the output of the BT/BLE module but not the big knob of the main amplifier.
